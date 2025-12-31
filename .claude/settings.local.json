@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "Bash(set \"NEON_DATABASE_URL=postgresql://neondb_owner:npg_ZI0EhndGm2xj@ep-morning-waterfall-a865p3d6-pooler.eastus2.azure.neon.tech/neondb?sslmode=require\")",
+      "Bash(python scripts/migrate_to_neon.py:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(powershell -Command \"$env:NEON_DATABASE_URL=''postgresql://neondb_owner:npg_ZI0EhndGm2xj@ep-morning-waterfall-a865p3d6-pooler.eastus2.azure.neon.tech/neondb?sslmode=require''; python -m pytest tests/test_postgres.py -v --tb=short\")"
     ]
   }
 }
