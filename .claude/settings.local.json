@@ -6,7 +6,23 @@
       "Bash(python scripts/migrate_to_neon.py:*)",
       "Bash(python:*)",
       "Bash(pip install:*)",
-      "Bash(powershell -Command \"$env:NEON_DATABASE_URL=''postgresql://neondb_owner:npg_ZI0EhndGm2xj@ep-morning-waterfall-a865p3d6-pooler.eastus2.azure.neon.tech/neondb?sslmode=require''; python -m pytest tests/test_postgres.py -v --tb=short\")"
+      "Bash(powershell -Command \"$env:NEON_DATABASE_URL=''postgresql://neondb_owner:npg_ZI0EhndGm2xj@ep-morning-waterfall-a865p3d6-pooler.eastus2.azure.neon.tech/neondb?sslmode=require''; python -m pytest tests/test_postgres.py -v --tb=short\")",
+      "Bash(python3 -m pip install:*)",
+      "Bash(curl:*)",
+      "Bash(sh:*)",
+      "Bash(source $HOME/.local/bin/env)",
+      "Bash(uv sync:*)",
+      "Bash(uv pip install:*)",
+      "Bash(source .venv/bin/activate)",
+      "Bash(python3:*)",
+      "Bash(set -a)",
+      "Bash(source .env)",
+      "Bash(set +a)",
+      "Bash(find:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)"
     ]
   }
 }
