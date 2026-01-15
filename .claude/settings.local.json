@@ -22,7 +22,11 @@
       "Bash(git config:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push)"
+      "Bash(git push)",
+      "Bash(export DATABASE_URL=\"postgresql://neondb_owner:npg_ZI0EhndGm2xj@ep-divine-term-a8wmtzmx-pooler.eastus2.azure.neon.tech/neondb?sslmode=require&channel_binding=require\")",
+      "Bash(export:*)",
+      "Bash(uv:*)",
+      "Bash(grep:*)"
     ]
   }
 }
