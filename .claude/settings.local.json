@@ -26,7 +26,10 @@
       "Bash(export DATABASE_URL=\"postgresql://neondb_owner:npg_ZI0EhndGm2xj@ep-divine-term-a8wmtzmx-pooler.eastus2.azure.neon.tech/neondb?sslmode=require&channel_binding=require\")",
       "Bash(export:*)",
       "Bash(uv:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(NEON_DATABASE_URL=\"postgresql://neondb_owner:npg_ZI0EhndGm2xj@ep-plain-bonus-a811ff4s-pooler.eastus2.azure.neon.tech/neondb?sslmode=require\" psql \"$NEON_DATABASE_URL\" -f src/scoracle_data/migrations/001_sport_specific_schema.sql)",
+      "Bash(NEON_DATABASE_URL=\"postgresql://neondb_owner:npg_ZI0EhndGm2xj@ep-plain-bonus-a811ff4s-pooler.eastus2.azure.neon.tech/neondb?sslmode=require\" python3:*)",
+      "Bash(tree:*)"
     ]
   }
 }
