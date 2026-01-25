@@ -42,7 +42,8 @@
       "Bash(PYTHONPATH=src NEON_DATABASE_URL=\"postgresql://neondb_owner:npg_ZI0EhndGm2xj@ep-plain-bonus-a811ff4s-pooler.eastus2.azure.neon.tech/neondb?sslmode=require\" python:*)",
       "Bash(export NEON_DATABASE_URL_V2=\"postgresql://neondb_owner:npg_ZI0EhndGm2xj@ep-plain-bonus-a811ff4s-pooler.eastus2.azure.neon.tech/neondb?sslmode=require\")",
       "Bash(.venv/bin/python:*)",
-      "Bash(chmod:*)"
+      "Bash(chmod:*)",
+      "Bash(xargs ls:*)"
     ]
   }
 }
