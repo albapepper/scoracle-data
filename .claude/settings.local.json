@@ -43,7 +43,10 @@
       "Bash(export NEON_DATABASE_URL_V2=\"postgresql://neondb_owner:npg_ZI0EhndGm2xj@ep-plain-bonus-a811ff4s-pooler.eastus2.azure.neon.tech/neondb?sslmode=require\")",
       "Bash(.venv/bin/python:*)",
       "Bash(chmod:*)",
-      "Bash(xargs ls:*)"
+      "Bash(xargs ls:*)",
+      "Bash(PYTHONPATH=/home/sheneveld/scoracle-data/src python3:*)",
+      "Bash(/home/sheneveld/scoracle-data/.venv/bin/python:*)",
+      "Bash(git -C /home/sheneveld/scoracle-data status)"
     ]
   }
 }
