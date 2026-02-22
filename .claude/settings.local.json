@@ -46,7 +46,8 @@
       "Bash(xargs ls:*)",
       "Bash(PYTHONPATH=/home/sheneveld/scoracle-data/python python3:*)",
       "Bash(/home/sheneveld/scoracle-data/.venv/bin/python:*)",
-      "Bash(git -C /home/sheneveld/scoracle-data status)"
+      "Bash(git -C /home/sheneveld/scoracle-data status)",
+      "WebFetch(domain:postgrest-production-0650.up.railway.app)"
     ]
   }
 }
